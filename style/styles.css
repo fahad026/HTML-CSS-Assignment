@@ -15,7 +15,7 @@
     margin: 0 100px;
 }
 
-ul li a{
+.nav-btn{
     font-weight: bold;
     /* list-style: none; */
     text-decoration: none;
@@ -97,16 +97,37 @@ ul li a{
     border-radius: 8px;
     background: rgb(84, 144, 245);
     padding: 10px 15px;
+    color: rgb(255, 255, 255);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: left;
 }
 .card-btn-two{
     border-radius: 8px;
     background: rgb(9, 161, 92);
     padding: 10px 15px;
+    color: rgb(255, 255, 255);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: left;
 }
 .card-btn-three{
     border-radius: 8px;
     background: rgb(255, 194, 57);
     padding: 10px 15px;
+    color: rgb(255, 255, 255);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: left;
 }
 
 .one{
@@ -122,15 +143,54 @@ ul li a{
 
 .card{
     padding: 33px;
-    /* box-shadow: 0px 6px 50px 0px rgba(42, 48, 45, 0.06); */
     border-radius: 5px;
-    /* background-color:rgb(225, 141, 141); */
+   
+}
+
+.card-title{
+    color: rgba(14, 14, 14, 0.8);
+font-family: Fira Sans;
+font-size: 20px;
+font-weight: 700;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: left;
+}
+
+.card-description{
+    color: rgba(14, 14, 14, 0.7);
+font-family: Fira Sans;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: left;
 }
 
 
 .box{
     margin: 105px;
     
+}
+
+.box-title{
+    color: rgb(14, 14, 14);
+font-family: Fira Sans;
+font-size: 40px;
+font-weight: 700;
+line-height: 48px;
+letter-spacing: 0%;
+text-align: left;
+}
+
+.box-description{
+    color: rgba(14, 14, 14, 0.7);
+font-family: Fira Sans;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: left;
 }
 
 /* challenge  */
@@ -166,19 +226,26 @@ top: 9.57px;
 .news-title{
     font-weight: bold;
     font-size: 35px;
+    color: rgb(14, 14, 14);
+font-family: Fira Sans;
+font-size: 40px;
+font-weight: 700;
+line-height: 48px;
+letter-spacing: 0%;
+text-align: left;
     
 }
 .news-image-container{
     display: flex;
     gap: 32px;
     padding: 32px 52px;
-    /* background-color: aliceblue; */
-    /* border: 1px solid; */
     border-radius: 24px;
 
 background: rgb(255, 255, 255);
     
 }
+
+
 
 .news-image-title{
     color: rgba(14, 14, 14, 0.8);
@@ -195,15 +262,23 @@ text-align: left;
     text-align: center;
     margin: 0 55px 0 55px;
 }
-.box-container{
-    /* margin-left: 400px;
-    margin-right: 400px; */
-    /* margin: 15px 5px 5px 785px; */
-    /* gap: 45px; */
-    /* display: flex; */
-    /* border: 1px solid black;
-    padding-left:205px ; */
-
+.donation-title{
+    color: rgb(14, 14, 14);
+font-family: Fira Sans;
+font-size: 40px;
+font-weight: 700;
+line-height: 48px;
+letter-spacing: 0%;
+text-align: center;
+}
+.donation-description{
+    color: rgba(14, 14, 14, 0.7);
+font-family: Fira Sans;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: center;
 }
 .box-container{
     border: 1px solid;
@@ -211,17 +286,76 @@ text-align: left;
     padding: 15px;
     font-size: large;
     font-weight: bold;
+    background-color: rgb(255, 255, 255); 
 }
 .box-container-color{
     background-color: rgb(198, 228, 214);
 }
 .book{
+    text-align: center;
     display: flex;
     margin: 15px 55px 85px 705px;
     /* border: 1px solid; */
     gap: 40px;
+    
+    
 }
 
 .contri{
-    margin-left: 800px;
+    margin:0 35px 60px 885px;
+    width: 200px;
+    text-align: center;
+}
+.box-btn{
+    color: rgb(255, 255, 255);
+    font-family: Fira Sans;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0%;
+    text-align: left;
+    background-color:rgb(0, 106, 80);
+    padding: 15px;
+    border-radius: 18px;
+}
+.box-btn-container{
+   
+    text-align: center;
+}
+/* newsletter section */
+.news-letter{
+    border-radius: 24px;
+    background: rgb(198, 228, 214);
+    height: 395px;
+    margin: 0 35px 55px 103px;
+    margin-right: 106px;
+}
+.news-letter-title{
+    margin:15px 25px 35px 45px;
+    color: rgb(14, 14, 14);
+    font-family: Fira Sans;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+.news-letter-description{
+    color: rgba(14, 14, 14, 0.7);
+font-family: Fira Sans;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0%;
+text-align: center;
+}
+.news-letter-container{
+    text-align: center;
+    margin:10px 20px 55px 85px ;
+}
+
+
+.news-letter-btn :hover {
+margin: 0;
+
 }
