@@ -1,4 +1,8 @@
-
+.hero{
+    background-color: rgb(245, 245, 245);
+    position: absolute;
+    /* margin: 0 80px; */
+}
 /* nav section starts */
 .nav-title{
     font-weight: bold;
@@ -35,6 +39,7 @@ ul li a{
     margin-top: 200px;
     padding: 80px 100px 80px 100px;
     
+    
 }
 
 .nav{
@@ -49,7 +54,6 @@ ul li a{
 }
 
 .banner-description{
-    /* width: ; */
     color: rgb(14, 14, 14);
     font-family: Fira Sans;
     font-size: 56px;
@@ -79,3 +83,81 @@ ul li a{
     
 }
 /* banner section end */
+
+/* card section */
+
+
+
+.card-container{
+    display: flex;
+    gap: 25px;
+}
+
+.card-btn-one{
+    border-radius: 8px;
+    background: rgb(84, 144, 245);
+    padding: 10px 15px;
+}
+.card-btn-two{
+    border-radius: 8px;
+    background: rgb(9, 161, 92);
+    padding: 10px 15px;
+}
+.card-btn-three{
+    border-radius: 8px;
+    background: rgb(255, 194, 57);
+    padding: 10px 15px;
+}
+
+.one{
+    background-color: rgba(84, 144, 245, 0.2)
+}
+
+.two{
+    background-color: rgb(198, 228, 214);
+}
+.three{
+    background-color: rgb(247, 235, 207);
+}
+
+.card{
+    padding: 33px;
+    /* box-shadow: 0px 6px 50px 0px rgba(42, 48, 45, 0.06); */
+    border-radius: 5px;
+    /* background-color:rgb(225, 141, 141); */
+}
+
+
+.box{
+    margin: 105px;
+    
+}
+
+/* challenge  */
+.challenge-container{
+    border: 1px solid rgb(179, 188, 187);
+    border-radius: 5px;
+    margin: 80px 105px;
+    padding: 50px;
+    background-color:white;
+}
+
+.challenge-description{
+    background-image: url(/assets/quote-bg.png);
+    background-repeat: no-repeat;
+    /* Vector */
+/* position: absolute; */
+/* width: 5.43px; */
+height: 46.86px;
+left: 0;
+top: 9.57px;
+}
+
+/* news section  */
+.news-title{
+    font-weight: bold;
+    font-size: 35px;
+}
+.news-image-container{
+    display: flex;
+}
