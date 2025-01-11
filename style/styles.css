@@ -190,8 +190,38 @@ letter-spacing: 0%;
 text-align: left;
 
 }
+/* donation section */
+.donation-container{
+    text-align: center;
+    margin: 0 55px 0 55px;
+}
+.box-container{
+    /* margin-left: 400px;
+    margin-right: 400px; */
+    /* margin: 15px 5px 5px 785px; */
+    /* gap: 45px; */
+    /* display: flex; */
+    /* border: 1px solid black;
+    padding-left:205px ; */
 
-.secondary-img{
-    justify-content: left;
+}
+.box-container{
+    border: 1px solid;
+    border-radius: 10px;
+    padding: 15px;
+    font-size: large;
+    font-weight: bold;
+}
+.box-container-color{
+    background-color: rgb(198, 228, 214);
+}
+.book{
+    display: flex;
+    margin: 15px 55px 85px 705px;
+    /* border: 1px solid; */
+    gap: 40px;
 }
 
+.contri{
+    margin-left: 800px;
+}
