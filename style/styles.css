@@ -203,7 +203,7 @@ text-align: left;
 }
 
 .challenge-description{
-    background-image: url(/assets/quote-bg.png);
+    background-image: url("../assets/quote-bg.png");
     background-repeat: no-repeat;
     /* Vector */
 /* position: absolute; */
